@@ -1,0 +1,29 @@
+.filters {
+  color: white;
+  min-height: 70px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.filters button {
+  font-size: 18px;
+  color: white;
+  background-color: #ff5a5f;
+  min-height: 48px;
+  width: 20%;
+  border-width: 0px;
+  border-style: none;
+  border-radius: 4px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+button:hover {
+  opacity: 90%;
+}
