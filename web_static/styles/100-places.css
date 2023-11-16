@@ -1,0 +1,152 @@
+.places {
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.places h1 {
+  width: 100%;
+  font-size: 30px;
+}
+
+.places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: #ff5a5f 1px solid;
+  border-radius: 4px;
+  position: relative;
+}
+
+article h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.price_by_night {
+  color: #ff5a5f;
+  border: #ff5a5f 4px solid;
+  border-radius: 50%;
+  height: 60px;
+  min-width: 60px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+  right: 10px;
+}
+
+.information {
+  height: 80px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+}
+
+.max_guest {
+  background-image: url(../images/icon_group.png);
+  margin-top: 5px;
+}
+
+.number_rooms {
+  background-image: url(../images/icon_bed.png);
+  margin-top: 5px;
+}
+
+.number_bathrooms {
+  background-image: url(../images/icon_bath.png);
+  margin-top: 5px;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+  width: 120px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  background-position-x: center;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.user {
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.places .amenities h3 {
+  font-size: 18px;
+}
+
+.places .amenities h2 {
+  padding: 5% 0 5% 0;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #dddddd;
+  font-size: 24px;
+  text-align: start;
+}
+
+.places .amenities > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.places .amenities > ul li {
+  background-size: 20px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  background-repeat: no-repeat;
+  line-height: 25px;
+  font-size: 24px;
+}
+
+.tv {
+  background-image: url(../images/icon_tv.png);
+}
+
+.wifi {
+  background-image: url(../images/icon_wifi.png);
+}
+
+.pets {
+  background-image: url(../images/icon_pets.png);
+}
+
+.reviews {
+  margin-bottom: 5%;
+}
+
+.places .reviews > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.places .reviews ul li h3 {
+  margin-top: 0;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.places .reviews ul li p {
+  padding-bottom: 5%;
+  margin-top: 0px;
+  font-size: 18px;
+}
